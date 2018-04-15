@@ -1,0 +1,38 @@
+.legend {
+  font-size: 13px;
+}
+h1 {
+font-size: 15px;
+text-align: center;
+}
+rect {
+  stroke-width: 2;
+}
+#chart {
+height: 360px;
+margin: 0 auto;                            
+position: relative;
+width: 360px;
+}
+.tooltip {
+box-shadow: 0 0 5px #999999;
+display: none;
+font-size: 12px;
+left: 130px;
+padding: 10px;
+position: absolute;
+text-align: center;
+top: 95px;
+width: 80px;
+z-index: 10;
+line-height: 140%; /*Interlineado*/
+font-family: "Open Sans", sans-serif;
+font-weight: 300;
+background: rgba(0, 0, 0, 0.8);
+color: #fff;
+border-radius: 2px;
+}
+
+.label {
+ font-weight: 600;
+}
